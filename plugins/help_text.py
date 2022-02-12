@@ -99,10 +99,11 @@ async def start_me(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton("Help", callback_data = "ghelp")
+                        InlineKeyboardButton("Help", callback_data = "ghelp"),
+                        InlineKeyboardButton("Support Person", callback_data = "https://t.me/yameteee_yamete_kudasai")
                 ],
                 [
-                    InlineKeyboardButton('Support Channel', url='https://t.me/tas_support'),
+                    InlineKeyboardButton('Our Channel', url='https://t.me/trending_anime_series'),
                     InlineKeyboardButton('Feedback', url='https://t.me/yameteee_yamete_kudasai')
                 ],
                 [
